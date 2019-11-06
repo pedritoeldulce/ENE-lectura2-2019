@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Lectura 5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- EVAL 01 -->
+
+
+    <!-- ********************************************INICIO  TITULOS   ******************************************************************* -->
+    <!-- ********************************************INICIO  TITULOS   ******************************************************************* -->
+
+    <string name="tituloToken">  BIENVENIDOS AL CURSO DE CAPACITACIÓN DIRIGIDO A SUPERVISORES NACIONALES, COORDINADORES, JEFES DE EQUIPO Y OPERADORES DE EMPRESAS (CONTROL DE LECTURA 5)</string>
+    <string name="tituloBienvenido">BIENVENIDOS AL CONTROL DE LECTURA 2 - PARA LA ENCUESTA NACIONAL EMPRESAS - ENE - 2019</string>
+    <string name="tituloEvaluacion">CONTROL 5 DE LECTURA</string>
+
+    <!-- ********************************************FIN TITULOS   ******************************************************************* -->
+    <!-- ********************************************FIN TITULOS   ******************************************************************* -->
+
+
+    <!-- ********************************************INICIO  EVAL 05    ******************************************************************* -->
+
+    <string name="eval05_comentario">I.	LEA DETENIDAMENTE CADA PREGUNTA Y SELECCIONE LA ALTERNATIVA QUE IDENTIFICA LA RESPUESTA CORRECTA. (VALE 2 PUNTOS C/U)
+           </string>
+
+    <string name="eval05_p01">1. "El ____________________ es un sistema eficaz de __________________ y __________________ que agiliza el proceso de venta, mediante una interfaz accesible para los vendedores o compradores”. ___________________________”. Las palabras que completa la definición son:</string>
+    <string name="eval05_p01_puntaje">7 puntos</string>
+    <string name="eval05_p01_sub01">a.	LinkedIn - relaciones empresariales – gestión</string>
+    <string name="eval05_p01_sub02">b.	Terminal de punto de venta – cobro – gestión</string>
+    <string name="eval05_p01_sub03">c.	Scanner – recolección – digitalización</string>
+    <string name="eval05_p01_sub04">d.	Intranet – interacción – comunicación</string>
+    <string name="eval05_p01_sub05">e.	Password – incorporación – ordenador</string>
+
+    <string name="eval05_p02">2.	“_________________ es el conjunto de mecanismos que ________________  y  ______________ información de forma automática”. Las palabras que completa la definición son:</string>
+    <string name="eval05_p02_puntaje">7 puntos</string>
+    <string name="eval05_p02_sub01">a.	Página web – contiene - procesa</string>
+    <string name="eval05_p02_sub02">b.	Teléfonos móviles – procesa – recopila</string>
+    <string name="eval05_p02_sub03">c.	Equipos informáticos – procesa - almacena</string>
+    <string name="eval05_p02_sub04">d.	Sitio web – guarda y archiva</string>
+
+
+    <string name="eval05_p03">3.	“En la empresa “Los campeones del Cemento” S.A.C., laboran un total de 180 trabajadores de los cuales 42 trabajadores utiliza computadora por lo menos una vez por semana”. Por lo tanto, el porcentaje de trabajadores que utiliza computadora por lo menos una vez por semana” es de:</string>
+    <string name="eval05_p03_sub01">a.	24%</string>
+    <string name="eval05_p03_sub02">b.	33%</string>
+    <string name="eval05_p03_sub03">c.	77%</string>
+    <string name="eval05_p03_sub04">d.	23%</string>
+
+    <string name="eval05_p04">4.	“Determinar la proporción de empresas que han utilizado servicios complementarios en el desarrollo de su actividad económica con la finalidad de evaluar el conjunto de inversiones en seguridad, transporte, servicio de correo postal y las facilidades otorgadas para realizar exportaciones de productos o servicios.” El capítulo al cual le pertenece dicho concepto es: </string>
+    <string name="eval05_p04_sub01">a.	Capítulo 600</string>
+    <string name="eval05_p04_sub02">b.	Capítulo 300</string>
+    <string name="eval05_p04_sub03">c.	Capítulo 700</string>
+    <string name="eval05_p04_sub04">d.	Capítulo 200</string>
+
+    <string name="eval05_p05">5. “Son acciones o medidas implementadas, consideradas necesarias por la existencia de actores con propensión a cometer delitos”. Esta definición le corresponde a:</string>
+    <string name="eval05_p05_sub01">a.	Denuncia</string>
+    <string name="eval05_p05_sub02">b.	Chantaje</string>
+    <string name="eval05_p05_sub03">c.	Medidas de seguridad</string>
+    <string name="eval05_p05_sub04">d.	Daños al negocio</string>
+
+    <string name="eval05_p06">6. “Es cuando la empresa recibe intimidación y aparentemente el perpetuador no busca ningún beneficio”.     Esta definición le corresponde a:</string>
+    <string name="eval05_p06_sub01">a.	Robo</string>
+    <string name="eval05_p06_sub02">b.	Amenaza</string>
+    <string name="eval05_p06_sub03">c.	Chantaje</string>
+    <string name="eval05_p06_sub04">d.	Denuncia</string>
+
+
+    <string name="eval05_p07">II.	LEA DETENIDAMENTE CADA ENUNCIADO Y COLOQUE VERDADERO (V) O FALSO SEGÚN CORRESPONDA VALE 2 PUNTOS.</string>
+    <string name="eval05_p07_caracteristicas">1. PRIMER BLOQUE (VALE 2 PUNTOS)</string>
+    <string name="eval05_p07_sub01">TRIBUTARIO: Son ingresos de derecho público que consisten en prestaciones relacionadas con el dinero obligatorias, impuestas unilateralmente por el estado, exigidas por una administración pública como consecuencia de la realización del hecho imponible al que la ley vincule en él debe de contribuir.</string>
+    <string name="eval05_p07_sub02">PRODUCCIÓN: Está definida como la creación y el procesamiento de bienes y mercancías. El proceso abarca la concepción, el procesamiento y la financiación, entre otras etapas.</string>
+    <string name="eval05_p07_sub03">SITIOS WEB:  Es el conjunto de archivos electrónicos y páginas web referentes a varios temas en particular, que incluye una página inicial de bienvenida, con un nombre de dominio y dirección en internet específicos.</string>
+    <string name="eval05_p07_sub04">REDES SOCIALES: Las redes sociales son sitios de internet que permiten a las personas conectarse con sus amigos e incluso realizar nuevas amistades, de manera virtual, y compartir contenidos, interactuar, crear comunidades sobre intereses similares: trabajo, lecturas, juegos, amistad, relaciones amorosas, relaciones comerciales, entre otros.</string>
+    <string name="eval05_p07_sub05">PÉRDIDAS DE PRODUCTOS: “Perdida u ausencia de máquinas o bienes de equipo mediante las cuales se realiza la extracción o elaboración de los productos, esto le afecta económicamente a la empresa tanto en la producción como monetario”. </string>
+
+    <string name="eval05_p08_caracteristicas">2. SEGUNDO BLOQUE (VALE 2 PUNTOS)</string>
+    <string name="eval05_p08_sub01">COURIER: Es una persona jurídica de derecho privado organizada de acuerdo a la Ley de Actividad Empresarial del Estado y a la Ley General de Sociedades, cuya actividad principal es la prestación de los servicios postales en todas sus modalidades con ámbito de acción a nivel nacional e internacional.</string>
+    <string name="eval05_p08_sub02">SERVICIO DE SOPORTE AL CLIENTE: Es un servicio prestado por las entidades financieras que tiene como misión permitir a sus clientes realizar operaciones y transacciones con sus productos de forma autónoma, independiente, segura y rápida a través de Internet.</string>
+    <string name="eval05_p08_sub03">REDES MÓVILES: Es el conjunto de archivos electrónicos y páginas web referentes a un tema en particular, que incluye una página inicial de bienvenida; con un nombre de dominio y dirección en Internet específicos. Un sitio web es un gran espacio documental organizado que la mayoría de las veces está típicamente dedicado a algún tema particular o propósito específico.</string>
+    <string name="eval05_p08_sub04">MEDIDAS DE SEGURIDAD: Son acciones o medidas implementadas, consideradas necesarias por la existencia de actores con propensión a cometer delitos.</string>
+    <string name="eval05_p08_sub05">DENUNCIA: Se refiere al dato que informa respecto de la presunta comisión de un hecho delictuoso, tiene como esencial efecto, el de movilizar al órgano competente para que inicie las investigaciones preliminares para constatar, en primer lugar, la realización de un hecho ilícito, y en segundo lugar, su presunto autor.</string>
+
+    <string name="eval05_verdadero">a. Verdadero \u0020\u0020\u0020</string>
+    <string name="eval05_falso">b. Falso</string>
+
+
+    <string name="eval05_p09">III.	LEA DETENIDAMENTE CADA ENUNCIADO DE LA COLUMNA (A) E IDENTIFIQUE SU CONCEPTO EN LA COLUMNA (B), REALICE LA RELACIÓN Y SELECCIONE EL CÓDIGO CORRECTO QUE LE CORRESPONDE AL CONCEPTO. VALE 4 PUNTOS</string>
+    <!--<string name="eval05_p09_puntaje">7 puntos</string>-->
+    <string name="eval05_p09_caracteristicas">ENUNCIADO</string>
+    <string name="eval05_p09_sub01">A) PASSWORD</string>
+    <string name="eval05_p09_sub02">B) SOFTWARE ANTIVIRUS</string>
+    <string name="eval05_p09_sub03">C) SOFTWARE ANTISPYWARE</string>
+    <string name="eval05_p09_sub04">D) SOFTWARE ANTIMALWARE</string>
+
+    <string name="eval05_p09_concepto">CONCEPTO </string>
+    <string name="eval05_p09_op01">Este software ayuda a proteger su equipo contra ventanas emergentes, rendimiento lento y amenazas de seguridad provocadas por spyware (programa espía) y otro software no deseado: Anti spam.</string>
+    <string name="eval05_p09_op02">Este software bloquea y elimina de forma efectiva y eficiente el software malicioso que tiene como objetivo infiltrarse o dañar una computadora o sistema de información.</string>
+    <string name="eval05_p09_op03">Es una serie secreta de caracteres que permite a un usuario tener acceso a un archivo, a un ordenador o a un programa. En sistemas multiusos, cada usuario debe incorporar su contraseña antes de que el ordenador responda a los comandos.</string>
+    <string name="eval05_p09_op04">Analiza archivos en busca de ciertos patrones que puedan indicar una infección por código maligno, aunque los detalles varían entre los distintos paquetes. Los patrones que busca se basan en firmas o definiciones de virus conocidos. Los creadores de virus constantemente crean nuevos virus o actualizan los ya existentes, por tal motivo es importante instalar las últimas versiones de virus.</string>
+
+    <string-array name="ABCD_opciones">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <!-- ********************************************FIN EVAL 04    ******************************************************************* -->
+    <!-- ********************************************FIN EVAL 04    ******************************************************************* -->
+    <!-- ********************************************FIN EVAL 04    ******************************************************************* -->
+    <!-- ********************************************FIN EVAL 04    ******************************************************************* -->
+
+
+    <string name="eval05_p07_concepto">V/F</string>
+    <string name="eval05_p08_concepto">V/F</string>
+
+
+    <string-array name="eval05_pregunta_4_opciones">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+
+    <string-array name="VF_opciones">
+        <item>V</item>
+        <item>F</item>
+    </string-array>
+
+
+    <string name="verdadero">VERDADERO</string>
+    <string name="falso">FALSO</string>
+
+    <string-array name="cuestionario1_pregunta_4_opciones">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="cargo">
+        <item>SUPERVISOR NACIONAL</item>
+        <item>MONITOR</item>
+        <item>OPERADOR DE EMPRESA</item>
+        <item>JEFE DE EQUIPO</item>
+        <item>COORDINADOR</item>
+    </string-array>
+
+    <string-array name="sede_operativa">
+
+        <item>51 PROVINCIA DE LIMA</item>
+
+    </string-array>
+
+    <string-array name="aula">
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+
+</resources>
+

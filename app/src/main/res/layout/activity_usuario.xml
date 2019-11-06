@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEF6F5"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_material"
+    tools:context="com.example.ksanchez.enapp.activities.UsuarioActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="#CEF6F5"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0404B4"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto_grande"
+            android:text="@string/tituloBienvenido"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_material"
+        android:layout_marginRight="@dimen/margin_material"
+
+        android:background="@drawable/fondo_final_enedu"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text="INGRESA TUS DATOS"
+            android:textColor="#0404B4"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto_grande"
+            android:layout_marginBottom="@dimen/layout_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0404B4"
+            android:textSize="@dimen/texto_medio"
+            android:textStyle="bold"
+            android:text="APELLIDOS Y NOMBRES"
+            android:visibility="invisible"/>
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/txtNombres"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="textCapCharacters"
+            android:background="@drawable/borde_pregunta_enedu_spinner"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:visibility="invisible"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DNI"
+            android:textColor="#0404B4"
+            android:textSize="@dimen/texto_medio"
+            android:textStyle="bold" />
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/txtDni"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:inputType="numberPassword"
+            android:background="@drawable/borde_pregunta_enedu_spinner"
+            android:layout_marginBottom="@dimen/layout_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/texto_medio"
+            android:textColor="#0404B4"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="AULA"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="@dimen/layout_margin">
+
+            <Spinner
+                android:id="@+id/txtAula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:entries="@array/aula"
+                android:hint="Seleccione"
+
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/texto_medio"
+            android:textColor="#0404B4"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="SEDE OPERATIVA"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/layout_margin10dp"
+            android:background="@drawable/borde_pregunta"
+            android:layout_marginBottom="@dimen/layout_margin">
+
+            <Spinner
+                android:id="@+id/txtSede"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:drawSelectorOnTop="true"
+                android:entries="@array/sede_operativa"
+                android:hint="Seleccione" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/texto_medio"
+            android:textColor="#0404B4"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="CARGO"
+            android:visibility="visible"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+
+            android:layout_marginRight="@dimen/layout_margin10dp"
+            android:background="@drawable/borde_pregunta">
+            <Spinner
+                android:id="@+id/txtCargo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:hint="Seleccione"
+                android:entries="@array/cargo"/>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+
+            android:id="@+id/btnIniciar"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#0404B4"
+            android:text="INICIAR "/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

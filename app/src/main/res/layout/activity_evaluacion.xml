@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ksanchez.enapp.activities.EvaluacionActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/imagencenoec">
+        <Button
+            android:id="@+id/btnAnterior"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="anterior"
+            android:background="#08298A"
+            android:theme="@style/RaisedButtonDark2" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloEvaluacion"
+            android:textSize="@dimen/texto_medio"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#0404B4"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:background="@drawable/circle_shape"
+            android:gravity="center"
+            android:id="@+id/reloj"
+            android:textColor="#131212"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="siguiente"
+            android:background="#08298A"
+            android:theme="@style/RaisedButtonDark2"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/fragment_evaluacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINALIZAR CONTROL"
+        android:background="#08298A"
+        android:theme="@style/RaisedButtonDark"/>
+</LinearLayout>
